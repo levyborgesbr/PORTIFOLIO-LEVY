@@ -74,32 +74,23 @@ textarea {
 .titulo-sobremim::after {
         top: calc(100% + 1.2rem); } }
 
-.heading-sec__sub {
+.titulo-projeto-sub {
   display: block;
   text-align: center;
   color: #777;
   font-size: 2rem;
-  font-weight: 500;
-  max-width: 80rem;
-  margin: auto;
-  line-height: 1.6; }
-  @media only screen and (max-width: 37.5em) {
-    .heading-sec__sub {
-      font-size: 1.8rem; } }
-  .heading-sec__sub--lt {
-    color: #eee; }
+  font-weight: 400;}
 
-.heading-sm {
-  font-size: 2.2rem;
-  text-transform: uppercase;
-  letter-spacing: 1px; }
+.titulo-footer {
+  font-size: 3rem;
+  text-transform: uppercase;}
 
 .main-container {
   max-width: 120rem;
   margin: auto;
-  width: 92%; }
+  width: 90%;}
 
-.btn {
+.botao {
   background: #fff;
   color: #333;
   text-transform: uppercase;
@@ -109,29 +100,26 @@ textarea {
   border-radius: 5px;
   box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.15);
   transition: transform .3s; }
-  .btn:hover {
+  .botao:hover {
     transform: translateY(-3px); }
-  .btn--bg {
+  .botao--bg {
     padding: 1.5rem 8rem;
     font-size: 2rem; }
-  .btn--med {
+  .botao--med {
     padding: 1.5rem 5rem;
     font-size: 1.6rem; }
-  .btn--theme {
+  .botao--theme {
     background: #0062b9;
     color: #fff; }
-  .btn--theme-inv {
+  .botao--theme-inv {
     color: #0062b9;
     background: #fff;
     border: 2px solid #0062b9;
     box-shadow: none;
     padding: calc(1.5rem - 2px) calc(5rem - 2px); }
 
-.sec-pad {
-  padding: 12rem 0; }
-  @media only screen and (max-width: 56.25em) {
-    .sec-pad {
-      padding: 8rem 0; } }
+.sec-altura {
+  padding: 4rem 0; }
 
 .text-primary {
   color: #fff;
@@ -357,7 +345,7 @@ textarea {
       color: #999;
       font-weight: 600;
       font-size: 1.6rem; }
-  .contact__btn {
+  .contato__botao {
     width: 30%;
     padding: 2rem 4rem;
     font-size: 1.6rem; }
