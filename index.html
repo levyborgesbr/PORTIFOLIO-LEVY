@@ -13,58 +13,71 @@
       href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap" rel="stylesheet"/>
 </head>
 <body>
-    <header class="header">
-      <div class="header__content">
-        <div class="header__logo-container">
-          <div class="header__logo-img-cont">
-            <img
-              src="./imagens/diversos/john-doe.png"
-              alt="Ram Maheshwari Logo Image"
-              class="header__logo-img"/>
-          </div>
-          <span class="header__logo-sub">Levy Borges</span>
+  <header class="header">
+    <div class="header__content">
+      <div class="header__logo-container">
+        <div class="header__logo-img-cont">
+          <img
+            src="./imagens/diversos/john-doe.png"
+            alt="Ram Maheshwari Logo Image"
+            class="header__logo-img"
+          />
         </div>
-        <div class="header__main">
-          <ul class="header__links">
-            <li class="header__link-wrapper">
-              <a href="./index.html" class="header__link"> Home </a>
-            </li>
-            <li class="header__link-wrapper">
-              <a href="./index.html#about" class="header__link">Sobre mim </a>
-            </li>
-            <li class="header__link-wrapper">
-              <a href="./index.html#projects" class="header__link">
-                Projetos
-              </a>
-            </li>
-            <li class="header__link-wrapper">
-              <a href="./index.html#contact" class="header__link"> Contato </a>
-            </li>
-          </ul>
+        <span class="header__logo-sub">John Doe</span>
+      </div>
+      <div class="header__main">
+        <ul class="header__links">
+          <li class="header__link-wrapper">
+            <a href="./index.html" class="header__link"> Home </a>
+          </li>
+          <li class="header__link-wrapper">
+            <a href="./index.html#about" class="header__link">About </a>
+          </li>
+          <li class="header__link-wrapper">
+            <a href="./index.html#projects" class="header__link">
+              Projects
+            </a>
+          </li>
+          <li class="header__link-wrapper">
+            <a href="./index.html#contact" class="header__link"> Contact </a>
+          </li>
+        </ul>
+        <div class="header__main-ham-menu-cont">
+          <img
+            src="./imagens/svg/ham-menu.svg"
+            alt="hamburger menu"
+            class="header__main-ham-menu"
+          />
+          <img
+            src="./imagens/svg/ham-menu-close.svg"
+            alt="hamburger menu close"
+            class="header__main-ham-menu-close d-none"
+          />
         </div>
       </div>
-      <div class="header__sm-menu">
-        <div class="header__sm-menu-content">
-          <ul class="header__sm-menu-links">
-            <li class="header__sm-menu-link">
-              <a href="./index.html"> Home </a>
-            </li>
+    </div>
+    <div class="header__sm-menu">
+      <div class="header__sm-menu-content">
+        <ul class="header__sm-menu-links">
+          <li class="header__sm-menu-link">
+            <a href="./index.html"> Home </a>
+          </li>
 
-            <li class="header__sm-menu-link">
-              <a href="./index.html#about"> Sobre mim </a>
-            </li>
+          <li class="header__sm-menu-link">
+            <a href="./index.html#about"> About </a>
+          </li>
 
-            <li class="header__sm-menu-link">
-              <a href="./index.html#projects"> Projetos </a>
-            </li>
+          <li class="header__sm-menu-link">
+            <a href="./index.html#projects"> Projects </a>
+          </li>
 
-            <li class="header__sm-menu-link">
-              <a href="./index.html#contact"> Contato </a>
-            </li>
-          </ul>
-        </div>
+          <li class="header__sm-menu-link">
+            <a href="./index.html#contact"> Contact </a>
+          </li>
+        </ul>
       </div>
-    </header>
+    </div>
+  </header>
 
 
 
@@ -173,16 +186,13 @@
           </h2>
   
           <div>
-            <div class="projects__row">
+            <div class="projetos">
               <div>
-                <img
-                  src="./imagens/diversos/macbook.jpeg"
-                  alt="Software Screenshot"
-                  class="projects__row-img" loading="lazy"/>
+                <img src="./imagens/diversos/macbook.jpeg" alt="Software Screenshot" class="projetos-img" loading="lazy"/>
               </div>
-              <div class="projects__row-content">
-                <h3 class="projects__row-content-title">Project 1</h3>
-                <p class="projects__row-content-desc">
+              <div class="projetos-texto">
+                <h3 class="projetos-titulo">Project 1</h3>
+                <p class="projetos-descri">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
                   facilis tempora, explicabo quae quod deserunt eius sapiente
                   praesentium.
@@ -202,51 +212,51 @@
 
 
       <!-- CONTATO -->
-      <section id="contact" class="contact sec-altura dynamicBg">
+      <section id="contact" class="contato sec-altura">
         <div class="main-container">
           <h2>
-            <span class="heading-sec__main heading-sec__main--lt">Contato</span>
+            <span class="titulos">Contato</span>
             <span class="texto-sub">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic facilis
               tempora explicabo quae quod deserunt eius sapiente
             </span>
           </h2>
-          <div class="contact__form-container">
+          <div class="contato-area">
             <form action="#" class="contact__form">
-              <div class="contact__form-field">
-                <label class="contact__form-label" for="name">Nome</label>
+              <div class="contato-forms">
+                <label for="name">Nome</label>
                 <input
                   required
                   placeholder="Escreva seu nome"
                   type="text"
-                  class="contact__form-input"
+                  class="contato-input"
                   name="name"
                   id="name"
                 />
               </div>
-              <div class="contact__form-field">
-                <label class="contact__form-label" for="email">Email</label>
+              <div class="contato-forms">
+                <label for="email">Email</label>
                 <input
                   required
                   placeholder="Escreva seu Email"
                   type="text"
-                  class="contact__form-input"
+                  class="contato-input"
                   name="email"
                   id="email"
                 />
               </div>
-              <div class="contact__form-field">
-                <label class="contact__form-label" for="message">Mensagem</label>
+              <div class="contato-forms">
+                <label for="message">Mensagem</label>
                 <textarea
                   required
                   cols="30"
                   rows="10"
-                  class="contact__form-input"
+                  class="contato-input"
                   placeholder="Escreva sua mensagem"
                   name="message"
                   id="message"></textarea>
               </div>
-              <button type="submit" class="botao botao--theme contato__botao">
+              <button type="submit" class="botao botao--theme contato-botao">
                 Enviar
               </button>
             </form>
