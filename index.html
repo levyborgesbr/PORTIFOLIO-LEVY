@@ -41,16 +41,6 @@
               <a href="./index.html#contact" class="header__link"> Contato </a>
             </li>
           </ul>
-          <div class="header__main-ham-menu-cont">
-            <img
-              src="./assets/svg/ham-menu.svg"
-              alt="hamburger menu"
-              class="header__main-ham-menu"/>
-            <img
-              src="./assets/svg/ham-menu-close.svg"
-              alt="hamburger menu close"
-              class="header__main-ham-menu-close d-none"/>
-          </div>
         </div>
       </div>
       <div class="header__sm-menu">
@@ -76,6 +66,9 @@
       </div>
     </header>
 
+
+
+
     <!-- INICIAL -->
     <section class="home-hero">
       <div class="home-hero__content">
@@ -89,57 +82,50 @@
           <a href="./#projects" class="botao botao--bg">Projeto</a>
         </div>
       </div>
-      <div class="home-hero__socials">
-        <div class="home-hero__social">
-          <a href="#" class="home-hero__social-icon-link">
-            <img
-              src="./imagens/icones/linkedin-ico.png"
-              alt="icon"
-              class="home-hero__social-icon"/>
-          </a>
+      
+        <div class="home-icones">
+          <div>
+            <a href="#" class="home-icone-indiv">
+              <img src="./imagens/icones/linkedin-ico.png" alt="icon" class="home-icone-img"/>
+            </a>
+          </div>
+          <div>
+            <a href="#" class="home-icone-indiv">
+              <img
+                src="./imagens/icones/github-ico.png" alt="icon" class="home-icone-img"/>
+            </a>
+          </div>
+          <div>
+            <a href="#" class="home-icone-indiv">
+              <img
+                src="./imagens/icones/insta-ico.png" alt="icon" class="home-icone-img"/>
+            </a>
+          </div>
         </div>
-        <div class="home-hero__social">
-          <a href="#" class="home-hero__social-icon-link">
-            <img
-              src="./imagens/icones/github-ico.png"
-              alt="icon"
-              class="home-hero__social-icon"/>
-          </a>
-        </div>
-        </div>
-        <div class="home-hero__social">
-          <a
-            href="#"
-            class="home-hero__social-icon-link home-hero__social-icon-link--bd-none">
-            <img
-              src="./imagens/icones/insta-ico.png"
-              alt="icon"
-              class="home-hero__social-icon"/>
-          </a>
-        </div>
-      </div>
-      <div class="home-hero__mouse-scroll-cont">
+
+      <div class="home-mouse">
         <div class="mouse"></div>
       </div>
     </section>
 
 
 
+
     <!-- SOBRE MIM -->
-    <section id="about" class="about sec-altura">
+    <section class="about sec-altura">
         <div class="main-container">
           <h2 class="titulo-e-sub-sobremim">
-            <span class="titulo-sobremim">Sobre mim</span>
-            <span class="titulo-projeto-sub">
+            <span class="titulos">Sobre mim</span>
+            <span class="texto-sub">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic facilis
               tempora explicabo quae quod deserunt eius sapiente
             </span>
           </h2>
-          <div class="about__content">
-            <div class="about__content-main">
-              <h3 class="about__content-title">Get to know me!</h3>
-              <div class="about__content-details">
-                <p class="about__content-details-para">
+          <div class="about-conteudo">
+            <div>
+              <h3 class="about-conteudo-titulo">Get to know me!</h3>
+              <div>
+                <p class="about-conteudo-texto">
                   Olá! Eu sou
                   <strong>Levy Borges</strong>
                   desenvolvedor em <strong> Frontend Web </strong> Ao longo de minha carreira, participei de vários
@@ -151,22 +137,22 @@
                   conhecimentos para ajudar a empresa a atingir seus objetivos e crescer no mercado.
                 </p>
               </div>
-              <a href="./#contact" class="botao botao--med botao--theme dynamicBgClr">WhatsApp</a>
+              <a href="./#contact" class="botao botao--med botao--theme">WhatsApp</a>
             </div>
-            <div class="about__content-skills">
-              <h3 class="about__content-title">Minhas habilidades</h3>
+            <div>
+              <h3 class="about-conteudo-titulo">Minhas habilidades</h3>
               <div class="skills">
-                <div class="skills__skill">HTML</div>
-                <div class="skills__skill">CSS</div>
-                <div class="skills__skill">JavaScript</div>
-                <div class="skills__skill">PHP</div>
-                <div class="skills__skill">PYTHON</div>
-                <div class="skills__skill">GIT/GITHUB</div>
-                <div class="skills__skill">SQL</div>
-                <div class="skills__skill">WORDPLESS</div>
-                <div class="skills__skill">FIGMA</div>
-                <div class="skills__skill">LARAVEL</div>
-                <div class="skills__skill">BOOTSTRAP</div>
+                <div class="skills-skill">HTML</div>
+                <div class="skills-skill">CSS</div>
+                <div class="skills-skill">JavaScript</div>
+                <div class="skills-skill">PHP</div>
+                <div class="skills-skill">PYTHON</div>
+                <div class="skills-skill">GIT/GITHUB</div>
+                <div class="skills-skill">SQL</div>
+                <div class="skills-skill">WORDPLESS</div>
+                <div class="skills-skill">FIGMA</div>
+                <div class="skills-skill">LARAVEL</div>
+                <div class="skills-skill">BOOTSTRAP</div>
               </div>
             </div>
           </div>
@@ -177,18 +163,18 @@
 
 
       <!-- PROJETOS -->
-      <section id="projects">
+      <section>
         <div class="main-container sec-altura">
           <h2>
-            <span class="titulo-sobremim">Projetos</span>
-            <span class="titulo-projeto-sub">
+            <span class="titulos">Projetos</span>
+            <span class="texto-sub">
               Alguns dos projetos que realizei usando as minhas habilidades destacadas no tópico acima:
             </span>
           </h2>
   
-          <div class="projects__content">
+          <div>
             <div class="projects__row">
-              <div class="projects__row-img-cont">
+              <div>
                 <img
                   src="./imagens/diversos/macbook.jpeg"
                   alt="Software Screenshot"
@@ -207,48 +193,6 @@
                   target="_blank">Case Study</a>
               </div>
             </div>
-
-            <div class="projects__row">
-                <div class="projects__row-img-cont">
-                  <img
-                    src="./imagens/diversos/macbook.jpeg"
-                    alt="Software Screenshot"
-                    class="projects__row-img" loading="lazy"/>
-                </div>
-                <div class="projects__row-content">
-                  <h3 class="projects__row-content-title">Project 1</h3>
-                  <p class="projects__row-content-desc">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
-                    facilis tempora, explicabo quae quod deserunt eius sapiente
-                    praesentium.
-                  </p>
-                  <a
-                    href="./project-1.html"
-                    class="botao botao--med botao--theme dynamicBgClr"
-                    target="_blank">Case Study</a>
-                </div>
-              </div>
-
-              <div class="projects__row">
-                <div class="projects__row-img-cont">
-                  <img
-                    src="./imagens/diversos/macbook.jpeg"
-                    alt="Software Screenshot"
-                    class="projects__row-img" loading="lazy"/>
-                </div>
-                <div class="projects__row-content">
-                  <h3 class="projects__row-content-title">Project 1</h3>
-                  <p class="projects__row-content-desc">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
-                    facilis tempora, explicabo quae quod deserunt eius sapiente
-                    praesentium.
-                  </p>
-                  <a
-                    href="./project-1.html"
-                    class="botao botao--med botao--theme dynamicBgClr"
-                    target="_blank">Case Study</a>
-                </div>
-              </div>
           </div>
         </div>
       </section>
@@ -262,7 +206,7 @@
         <div class="main-container">
           <h2>
             <span class="heading-sec__main heading-sec__main--lt">Contato</span>
-            <span class="titulo-projeto-sub">
+            <span class="texto-sub">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic facilis
               tempora explicabo quae quod deserunt eius sapiente
             </span>
