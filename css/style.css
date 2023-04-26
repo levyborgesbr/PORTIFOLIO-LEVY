@@ -43,7 +43,8 @@ textarea {
   text-align: center;
   color: #777;
   font-size: 2rem;
-  font-weight: 400;}
+  font-weight: 400;
+  margin-bottom: 3rem}
 
 .main-container {
   max-width: 120rem;
@@ -385,10 +386,9 @@ textarea {
 
 /* CONTATO */
 .contato {
-  background: linear-gradient(to right, rgb(0, 0, 0), rgba(0, 98, 185, 0.8)),
-  url(../../assets/svg/common-bg.svg);}
+  background: #fafafa;}
 .contato-area {
-  box-shadow: 0 0 10px rgba(255, 232, 232, 0.57);
+  box-shadow: 0 0 10px rgba(27, 27, 27, 0.57);
   background: white;
   padding: 4rem;
   max-width: 80rem;
