@@ -80,7 +80,11 @@ textarea {
     padding: calc(1.5rem - 2px) calc(5rem - 2px); }
 
 .sec-altura {
-  padding: 4rem 0; }
+  padding: 4rem 0;}
+
+.altura {
+  padding-bottom: 8rem;
+}
 
 .d-none {
   display: none; }
