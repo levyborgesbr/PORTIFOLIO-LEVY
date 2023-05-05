@@ -207,43 +207,26 @@
             <span class="titulos">Contato</span>
           </h2>
           <div class="contato-area">
-            <form action="process-form.py" method="post" class="contact__form">
+            <form action="https://formsubmit.co/levyborgesvitoria@gmail.com" method="POST" class="contact__form form">
               <div class="contato-forms">
-                <label for="name">Nome</label>
-                <input
-                  required
-                  placeholder="Escreva seu nome"
-                  type="text"
-                  class="contato-input"
-                  name="name"
-                  id="name"
-                />
+                <label for="Nome">Nome</label>
+                <input required placeholder="Escreva seu nome" type="text" class="contato-input" name="Nome" id="name"/>
               </div>
               <div class="contato-forms">
                 <label for="email">Email</label>
-                <input
-                  required
-                  placeholder="Escreva seu Email"
-                  type="text"
-                  class="contato-input"
-                  name="email"
-                  id="email"
-                />
+                <input required placeholder="Escreva seu Email" type="email" class="contato-input" name="Email" id="email"/>
               </div>
               <div class="contato-forms">
-                <label for="message">Mensagem</label>
-                <textarea
-                  required
-                  cols="30"
-                  rows="10"
-                  class="contato-input"
-                  placeholder="Escreva sua mensagem"
-                  name="message"
-                  id="message"></textarea>
+                <label for="Mensagem">Mensagem</label>
+                <textarea required cols="30" rows="10" class="contato-input" placeholder="Escreva sua mensagem" name="Mensagem" id="message"></textarea>
               </div>
               <button type="submit" value="Enviar" class="botao botao--theme contato-botao">
                 Enviar
               </button>
+              <input type="hidden" name="_next" value="http://localhost:8000/index.html#contact">
+              <input type="hidden" name="_subject" value="Novo envio!">
+              <input type="hidden" name="_captcha" value="false">
+              <input type="hidden" name="_template" value="table">
             </form>
           </div>
         </div>
@@ -303,4 +286,5 @@
 
       <script src="./index.js"></script>
 </body>
+
 </html>
