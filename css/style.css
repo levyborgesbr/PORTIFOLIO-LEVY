@@ -44,7 +44,8 @@ textarea {
   color: #777;
   font-size: 2rem;
   font-weight: 400;
-  margin-bottom: 3rem}
+  padding-bottom: 3rem;
+  }
 
 .main-container {
   max-width: 120rem;
@@ -355,7 +356,11 @@ textarea {
 
 .projetos-img {
   width: 100%;
-  display: block;}
+  padding-top: 7rem;
+  display: block;
+  transition: transform 1s;}
+.projetos-img:hover {
+    transform: translateY(-10px); }
 
 .projetos-texto {
   display: flex;
@@ -380,9 +385,12 @@ textarea {
   @media only screen and (max-width: 37.5em) {.projetos-descri {
     font-size: 1.7rem; } }
 
-
-
-
+.logo-projetos {
+      width: 30rem;
+      height: 30rem;
+      border-radius: 150px;
+      overflow: hidden;
+      background: #0062b9;}
 
 /* CONTATO */
 .contato {
