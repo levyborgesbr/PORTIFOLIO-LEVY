@@ -232,21 +232,23 @@ textarea {
         position: static;
         transform: translate(0, 0); } }
   .home-hero__info {
-    margin: 3rem auto 0 auto;
+    margin: 0rem auto 0 auto;
     max-width: 80rem; }
   .home-hero__cta {
-    margin-top: 5rem;
+    margin-top: 2rem;
     text-align: center; }
   
   .titulo-primario {
-    font-size: 6rem;
+    margin-top: 3rem;
+    margin-bottom: 0rem;
+    font-size: 4rem;
     text-align: center;}
 
   .text-primary {
     color: #fff;
-    font-size: 2rem;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
     text-align: center;}
-
 
   .home-icones{
     width: 6rem;
